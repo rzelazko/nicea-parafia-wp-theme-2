@@ -1,0 +1,58 @@
+.carousel-image-1 {
+  background: url(../images/chemin-de-l-energie.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../images/garibaldi.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../images/val-d-allos.jpg);
+  background-size: cover;
+}
+
+.np-carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: $white;
+
+  .np-carousel-caption-box {
+    background-color: rgba(37, 37, 37, 0.8);
+    min-height: 33%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@include media-breakpoint-up(xs) {
+  .carousel-item {
+    height: 250px;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  // default
+}
+
+@include media-breakpoint-up(md) {
+  .carousel-item {
+    height: 350px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .carousel-item {
+    height: 450px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  // default
+}
