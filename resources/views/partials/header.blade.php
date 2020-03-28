@@ -1,7 +1,12 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
-    <div class="container px-sm-3">
-        <a class="nabar-brand bg-primary text-white text-center p-2 d-inline-block my-2"
-            href="{{ home_url('/') }}"><span class="lead">Polska Parafia</span><br /><small>Nicea Cannes Monaco</small></a>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3 justify-content-between">
+        <a class="nabar-brand bg-primary text-white text-center p-2 p-lg-4 d-inline-block my-2" href="{{ home_url('/') }}">
+            <img src="@asset('images/nicea-parafia-logo.png')" width="39" height="52" class="d-none d-lg-inline-block align-middle" alt="" />
+            <span class="d-inline-block align-middle">
+                <span class="lead d-block">Polska Parafia</span>
+                <small class="d-block">Nicea Cannes Monaco</small>
+            </span>
+        </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,8 +22,8 @@
                 'walker' => new WP_Bootstrap_Navwalker()
             ]) !!}
         @endif
-    </div>
-</nav>
+    </nav>
+</div>
 
 @if (is_home())
 <header class="container">
