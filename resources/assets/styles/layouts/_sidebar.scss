@@ -1,3 +1,25 @@
 .sidebar > .widget {
   @extend .mt-3;
 }
+
+.widget_search {
+  .search-field {
+    @extend .mr-2;
+    @extend .flex-fill;
+  }
+
+  label {
+    @extend .flex-fill;
+  }
+}
+
+.widget_custom_html {
+  @extend .card;
+  @extend .card-body;
+  @extend .bg-primary;
+  @extend .text-white;
+
+  h3 {
+    @extend .card-title;
+  }
+}

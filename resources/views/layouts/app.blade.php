@@ -11,7 +11,7 @@
           @yield('content')
         </main>
         @if (App\display_sidebar())
-          <aside class="sidebar col-12 col-md-4 bg-light">
+          <aside class="sidebar col-12 col-md-4">
             @include('partials.sidebar')
           </aside>
         @endif
