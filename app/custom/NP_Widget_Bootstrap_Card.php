@@ -7,7 +7,7 @@ class NP_Widget_Bootstrap_Card extends WP_Widget
 	{
 
 		parent::__construct(
-			'np-widget-bootstrap-card',  // Base ID
+			'np_bootstrap_card',  // Base ID
 			__('Bootsrap Card', 'sage')   // Name
 		);
 
