@@ -24,7 +24,7 @@
               'theme_location' => 'primary_navigation',
               'depth' => 1,
               'container' => 'div',
-              'container_class' => 'collapse navbar-collapse',
+              'container_class' => 'collapse navbar-collapse flex-grow-0',
               'container_id' => 'navbar-primary-navigation',
               'menu_class' => 'nav navbar-nav ml-auto',
               'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
