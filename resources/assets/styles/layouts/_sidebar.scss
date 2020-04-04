@@ -52,9 +52,11 @@
       }
     }
 
-    .gallery-columns-3 {
-      .gallery-item {
-        @extend .col-4;
+    @for $i from 3 through 9 {
+      .gallery-columns-#{$i} {
+        .gallery-item {
+          @extend .col-4;
+        }
       }
     }
   }
