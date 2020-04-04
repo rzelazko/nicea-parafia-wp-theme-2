@@ -7,7 +7,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .nabar-brand { // use logo position-absolute only when navbar-toggler is not visible
+  header .nabar-brand { // use logo position-absolute only when navbar-toggler is not visible
     position: absolute;
     top: 1rem;
     left: 1rem;
