@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-21 12:51+0100\n"
-"PO-Revision-Date: 2020-03-21 13:08+0100\n"
+"POT-Creation-Date: 2020-04-04 16:23+0200\n"
+"PO-Revision-Date: 2020-04-04 16:23+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
 
 #: resources/functions.php:17
 msgid "Sage &rsaquo; Error"
@@ -40,7 +41,9 @@ msgstr "Nieprawidłowa wersja WordPressa"
 
 #: resources/functions.php:43
 msgid "You must run <code>composer install</code> from the Sage directory."
-msgstr "Należy uruchomić <code>composer install</code> z katalogu Skórka Nicea Parafia"
+msgstr ""
+"Należy uruchomić <code>composer install</code> z katalogu Skórka Nicea "
+"Parafia."
 
 #: resources/functions.php:44
 msgid "Autoloader not found."
@@ -59,17 +62,17 @@ msgstr "Kontynuuj"
 msgid "Primary Navigation"
 msgstr "Menu górne"
 
-#: app/setup.php:86
-msgid "Primary"
-msgstr "Podstawowy"
+#: app/setup.php:88
+msgid "Primary sidebar"
+msgstr "Podstawowy pasek boczny"
 
-#: app/setup.php:90
+#: app/setup.php:92
 msgid "Footer"
 msgstr "Stopka"
 
 #: app/Controllers/App.php:20
 msgid "Latest Posts"
-msgstr "Ostatnie wpisy"
+msgstr "Ostatnie ogłoszenia"
 
 #: app/Controllers/App.php:26
 #, php-format
@@ -80,9 +83,41 @@ msgstr "Wyniki wyszukiwania dla %s"
 msgid "Not Found"
 msgstr "Nie znaleziono"
 
+#: app/custom/NP_Widget_Bootstrap_Card.php:11
+msgid "Bootsrap Card"
+msgstr "Karta Boostrap"
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:63
+msgid "Card CSS class:"
+msgstr "Klasa CSS karty:"
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:72
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:76
+msgid "Text:"
+msgstr "Treść:"
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:81
+msgid "Button URL:"
+msgstr "URL przycisku:"
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:91
+msgid "Button CSS class:"
+msgstr "Klasa CSS przycisku:"
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:101
+msgid "Button text:"
+msgstr "Tekst na przycisku:"
+
+#: app/custom/WP_Bootstrap_Navwalker.php:374
+msgid "Add a menu"
+msgstr "Dodaj menu"
+
 #: resources/views/index.blade.php:8 resources/views/search.blade.php:8
 msgid "Sorry, no results were found."
-msgstr "Brak wyników"
+msgstr "Brak wyników."
 
 #: resources/views/404.blade.php:8
 msgid "Sorry, but the page you were trying to view does not exist."
@@ -98,7 +133,7 @@ msgstr "Nowsze komentarze &rarr;"
 
 #: resources/views/partials/comments.blade.php:33
 msgid "Comments are closed."
-msgstr "Komentarze są wyłączone"
+msgstr "Komentarze są wyłączone."
 
 #: resources/views/partials/content-page.blade.php:2
 #: resources/views/partials/content-single.blade.php:10
@@ -108,3 +143,6 @@ msgstr "Strony:"
 #: resources/views/partials/entry-meta.blade.php:3
 msgid "By"
 msgstr "Przez"
+
+#~ msgid "Add a Bootstrap Card to the sidebar."
+#~ msgstr "Dodaj kartę Bootstrap."

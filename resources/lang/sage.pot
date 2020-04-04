@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-21 12:51+0100\n"
+"POT-Creation-Date: 2020-04-04 16:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,11 +58,11 @@ msgstr ""
 msgid "Primary Navigation"
 msgstr ""
 
-#: app/setup.php:86
-msgid "Primary"
+#: app/setup.php:88
+msgid "Primary sidebar"
 msgstr ""
 
-#: app/setup.php:90
+#: app/setup.php:92
 msgid "Footer"
 msgstr ""
 
@@ -77,6 +77,38 @@ msgstr ""
 
 #: app/Controllers/App.php:29
 msgid "Not Found"
+msgstr ""
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:11
+msgid "Bootsrap Card"
+msgstr ""
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:63
+msgid "Card CSS class:"
+msgstr ""
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:72
+msgid "Title:"
+msgstr ""
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:76
+msgid "Text:"
+msgstr ""
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:81
+msgid "Button URL:"
+msgstr ""
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:91
+msgid "Button CSS class:"
+msgstr ""
+
+#: app/custom/NP_Widget_Bootstrap_Card.php:101
+msgid "Button text:"
+msgstr ""
+
+#: app/custom/WP_Bootstrap_Navwalker.php:374
+msgid "Add a menu"
 msgstr ""
 
 #: resources/views/index.blade.php:8 resources/views/search.blade.php:8

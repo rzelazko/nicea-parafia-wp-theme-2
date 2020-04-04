@@ -58,7 +58,7 @@ array_map(function ($file) use ($sage_error) {
     if (!locate_template($file, true, true)) {
         $sage_error(sprintf(__('Error locating <code>%s</code> for inclusion.', 'sage'), $file), 'File not found');
     }
-}, ['helpers', 'setup', 'filters', 'admin', 'wp_bootstrap_navwalker']);
+}, ['helpers', 'setup', 'filters', 'admin', 'custom/WP_Bootstrap_Navwalker', 'custom/NP_Widget_Bootstrap_Card']);
 
 /**
  * Here's what's happening with these hooks:

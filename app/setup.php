@@ -65,7 +65,7 @@ add_action('after_setup_theme', function () {
      */
     add_theme_support('customize-selective-refresh-widgets');
 
-    add_theme_support( 'post-formats', array( 'image', 'gallery' ) );
+    add_theme_support('post-formats', array('image', 'gallery'));
 
     /**
      * Use main stylesheet for visual editor
@@ -85,7 +85,7 @@ add_action('widgets_init', function () {
         'after_title'   => '</h3>'
     ];
     register_sidebar([
-        'name'          => __('Primary', 'sage'),
+        'name'          => __('Primary sidebar', 'sage'),
         'id'            => 'sidebar-primary'
     ] + $config);
     register_sidebar([
@@ -137,4 +137,3 @@ add_action('after_setup_theme', function () {
      */
     load_theme_textdomain('sage', get_template_directory() . '/lang');
 });
-

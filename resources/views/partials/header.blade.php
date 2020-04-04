@@ -34,7 +34,7 @@
         <div class="carousel-item active carousel-image-1">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
                 <div class="col-md-6 col-lg-5 np-carousel-caption-box py-3">
-                    <h5>Chemin de l'Energie Alpy Nadmorskie</h5>
+                    <h5>Chemin de l&apos;Energie Alpy Nadmorskie</h5>
                     <p>
                         A potem Bóg rzekł «Niech zbiorą się wody spod nieba w jedno miejsce i niech się ukaże
                         powierzchnia sucha!»

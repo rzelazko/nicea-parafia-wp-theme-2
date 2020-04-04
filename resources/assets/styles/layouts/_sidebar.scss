@@ -14,15 +14,8 @@
     }
   }
 
-  .widget_custom_html {
-    @extend .card;
-    @extend .card-body;
-    @extend .bg-primary;
-    @extend .text-white;
-
-    h3 {
-      @extend .card-title;
-    }
+  .widget .card_body > h3 {
+    @extend .card-title;
   }
 
   .widget_media_gallery {
@@ -36,6 +29,7 @@
           @extend .w-100, .h-auto;
           @extend .border;
           @extend .border-primary;
+          @extend .rounded;
         }
       }
     }
