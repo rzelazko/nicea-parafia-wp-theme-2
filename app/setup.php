@@ -52,6 +52,7 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
      */
     add_theme_support('post-thumbnails');
+    set_post_thumbnail_size(200, 200, true);
 
     /**
      * Enable HTML5 markup support
