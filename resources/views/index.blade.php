@@ -14,5 +14,5 @@
     @include('partials.content-'.get_post_type())
   @endwhile
 
-  {!! get_the_posts_navigation() !!}
+  {!! BootstrapContentNavigation::get_the_posts_pagination(array('class' => 'pagination-bottom')) !!}
 @endsection

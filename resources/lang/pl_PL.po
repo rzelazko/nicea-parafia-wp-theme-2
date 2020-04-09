@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-09 19:32+0200\n"
-"PO-Revision-Date: 2020-04-09 19:34+0200\n"
+"POT-Creation-Date: 2020-04-09 20:50+0200\n"
+"PO-Revision-Date: 2020-04-09 20:50+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -111,6 +111,38 @@ msgstr "Klasa CSS przycisku:"
 msgid "Button text:"
 msgstr "Tekst na przycisku:"
 
+#: app/custom/BootstrapContentNavigation.php:42
+msgctxt "previous post"
+msgid "&laquo; Previous"
+msgstr "&laquo; Poprzednia"
+
+#: app/custom/BootstrapContentNavigation.php:43
+msgctxt "next post"
+msgid "Next &raquo;"
+msgstr "Następna &raquo;"
+
+#: app/custom/BootstrapContentNavigation.php:44
+msgid "Posts navigation"
+msgstr "Nawigacja po wpisach"
+
+#: app/custom/BootstrapContentNavigation.php:121
+msgctxt "previous comment"
+msgid "&laquo; Previous"
+msgstr "&laquo; Poprzednie"
+
+#: app/custom/BootstrapContentNavigation.php:122
+msgctxt "next comment"
+msgid "Next &raquo;"
+msgstr "Następne &raquo;"
+
+#: app/custom/BootstrapContentNavigation.php:123
+msgid "Comments navigation"
+msgstr "Nawigacja komentarzy"
+
+#: app/custom/BootstrapContentNavigation.php:219
+msgid "Post page navigation"
+msgstr "Nawigacja po wpisie"
+
 #: app/custom/WP_Bootstrap_Navwalker.php:374
 msgid "Add a menu"
 msgstr "Dodaj menu"
@@ -123,15 +155,7 @@ msgstr "Brak wyników."
 msgid "Sorry, but the page you were trying to view does not exist."
 msgstr "Podana strona nie istnieje."
 
-#: resources/views/partials/comments.blade.php:21
-msgid "&larr; Older comments"
-msgstr "&larr; Starsze komentarze"
-
 #: resources/views/partials/comments.blade.php:24
-msgid "Newer comments &rarr;"
-msgstr "Nowsze komentarze &rarr;"
-
-#: resources/views/partials/comments.blade.php:33
 msgid "Comments are closed."
 msgstr "Komentarze są wyłączone."
 
@@ -143,6 +167,27 @@ msgstr "Strony:"
 #: resources/views/partials/entry-meta.blade.php:3
 msgid "By"
 msgstr "Przez"
+
+#~ msgid "Post navigation"
+#~ msgstr "Nawigacja po wpisie"
+
+#~ msgid "Older posts"
+#~ msgstr "Starsze wpisy"
+
+#~ msgid "Newer posts"
+#~ msgstr "Nowsze wpisy"
+
+#~ msgid "Older comments"
+#~ msgstr "&larr; Starsze komentarze"
+
+#~ msgid "Newer comments"
+#~ msgstr "Nowsze komentarze &rarr;"
+
+#~ msgid "&larr; Older comments"
+#~ msgstr "&larr; Starsze komentarze"
+
+#~ msgid "Newer comments &rarr;"
+#~ msgstr "Nowsze komentarze &rarr;"
 
 #~ msgid "Continued"
 #~ msgstr "Kontynuuj"
