@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-04 16:23+0200\n"
+"POT-Creation-Date: 2020-04-09 19:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,18 +51,18 @@ msgid "Error locating <code>%s</code> for inclusion."
 msgstr ""
 
 #: app/filters.php:33
-msgid "Continued"
+msgid "Read more"
 msgstr ""
 
 #: app/setup.php:47
 msgid "Primary Navigation"
 msgstr ""
 
-#: app/setup.php:88
+#: app/setup.php:89
 msgid "Primary sidebar"
 msgstr ""
 
-#: app/setup.php:92
+#: app/setup.php:93
 msgid "Footer"
 msgstr ""
 
@@ -131,8 +131,8 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: resources/views/partials/content-page.blade.php:2
-#: resources/views/partials/content-single.blade.php:10
+#: resources/views/partials/content-page.blade.php:3
+#: resources/views/partials/content-single.blade.php:11
 msgid "Pages:"
 msgstr ""
 

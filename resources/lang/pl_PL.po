@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-04 16:23+0200\n"
-"PO-Revision-Date: 2020-04-04 16:23+0200\n"
+"POT-Creation-Date: 2020-04-09 19:32+0200\n"
+"PO-Revision-Date: 2020-04-09 19:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -55,18 +55,18 @@ msgid "Error locating <code>%s</code> for inclusion."
 msgstr "Błąd przy próbie załadowania pliku <code>%s</code>."
 
 #: app/filters.php:33
-msgid "Continued"
-msgstr "Kontynuuj"
+msgid "Read more"
+msgstr "Więcej"
 
 #: app/setup.php:47
 msgid "Primary Navigation"
 msgstr "Menu górne"
 
-#: app/setup.php:88
+#: app/setup.php:89
 msgid "Primary sidebar"
 msgstr "Podstawowy pasek boczny"
 
-#: app/setup.php:92
+#: app/setup.php:93
 msgid "Footer"
 msgstr "Stopka"
 
@@ -135,14 +135,17 @@ msgstr "Nowsze komentarze &rarr;"
 msgid "Comments are closed."
 msgstr "Komentarze są wyłączone."
 
-#: resources/views/partials/content-page.blade.php:2
-#: resources/views/partials/content-single.blade.php:10
+#: resources/views/partials/content-page.blade.php:3
+#: resources/views/partials/content-single.blade.php:11
 msgid "Pages:"
 msgstr "Strony:"
 
 #: resources/views/partials/entry-meta.blade.php:3
 msgid "By"
 msgstr "Przez"
+
+#~ msgid "Continued"
+#~ msgstr "Kontynuuj"
 
 #~ msgid "Add a Bootstrap Card to the sidebar."
 #~ msgstr "Dodaj kartę Bootstrap."
