@@ -31,6 +31,9 @@
         <li data-target="#carouselNiceaParafia" data-slide-to="0" class="active"></li>
         <li data-target="#carouselNiceaParafia" data-slide-to="1"></li>
         <li data-target="#carouselNiceaParafia" data-slide-to="2"></li>
+        <li data-target="#carouselNiceaParafia" data-slide-to="3"></li>
+        <li data-target="#carouselNiceaParafia" data-slide-to="4"></li>
+        <li data-target="#carouselNiceaParafia" data-slide-to="5"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active carousel-image-1">
@@ -50,16 +53,36 @@
         <div class="carousel-item carousel-image-2">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
                 <div class="col-md-6 col-lg-4 np-carousel-caption-box py-3">
-                    <h5>Lorem, ipsum.</h5>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h5>Col de Villefranche, Nicea</h5>
+                    <p>I mówili nawzajem do siebie: «Czy serce nie pałało w nas, kiedy rozmawiał z nami w drodze i Pisma nam wyjaśniał?»</p>
+                    <p class="small text-right">Łk 24,32</p>
                 </div>
             </div>
         </div>
         <div class="carousel-item carousel-image-3">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
                 <div class="col-md-6 col-lg-4 np-carousel-caption-box py-3">
-                    <h5>Lorem, ipsum.</h5>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h5>Kaplica, Plac Garibaldi, Nicea</h5>
+                    <p>O, gwiazdo najświętsza wiedź nas w niebios kraj. I wieczną szczęśliwość, o Boże, nam daj.</p>
+                    <p class="small text-right">Po górach dolinach</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-image-4">
+            <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
+                <div class="col-md-6 col-lg-4 np-carousel-caption-box py-3">
+                    <h5>Promenade des Anglais, Nicea</h5>
+                    <p>Pan kiedyś stanął nad brzegiem; Szukał ludzi gotowych pójść za Nim; By łowić serca; Słów Bożych prawdą</p>
+                    <p class="small text-right">Barka</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-image-5">
+            <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
+                <div class="col-md-6 col-lg-4 np-carousel-caption-box py-3">
+                    <h5>Val d'Allos, Alpy Prowansalskie</h5>
+                    <p>Błogosław, duszo moja, Pana! O Boże mój, Panie, jesteś bardzo wielki! Odziany we wspaniałość i majestat, światłem okryty jak płaszczem. Rozpostarłeś niebo jak namiot, wzniosłeś swe komnaty nad wodami.</p>
+                    <p class="small text-right">Ps 104</p>
                 </div>
             </div>
         </div>

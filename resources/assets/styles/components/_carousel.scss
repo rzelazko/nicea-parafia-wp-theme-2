@@ -1,15 +1,24 @@
 .carousel-image-1 {
-  background: url(../images/chemin-de-l-energie.jpg);
-  background-size: cover;
+  background: url(../images/main/chemin-de-l-energie.jpg);
 }
 
 .carousel-image-2 {
-  background: url(../images/garibaldi.jpg);
-  background-size: cover;
+  background: url(../images/main/cole-de-villefranche.jpg);
 }
 
 .carousel-image-3 {
-  background: url(../images/val-d-allos.jpg);
+  background: url(../images/main/garibaldi.jpg);
+}
+
+.carousel-image-4 {
+  background: url(../images/main/promenade-des-anglais.jpg);
+}
+
+.carousel-image-5 {
+  background: url(../images/main/val-d-allos.jpg);
+}
+
+.carousel-item {
   background-size: cover;
 }
 
@@ -54,5 +63,5 @@
 }
 
 @include media-breakpoint-up(xl) {
-  // default
+  // same as previous
 }
