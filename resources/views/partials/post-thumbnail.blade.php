@@ -2,7 +2,7 @@
     <a href="@php the_permalink() @endphp" alt="@php the_title_attribute() @endphp" class="entry-thumbnail">
         @php the_post_thumbnail('large', array('class' => 'img-fluid')) @endphp
     </a>
-@elseif (has_post_format('gallery'))
+@elseif (!is_single() && has_post_format('gallery'))
     @php
         $gallery_images = get_post_gallery_images();
         $gallery_size = count($gallery_images);
