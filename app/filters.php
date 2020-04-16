@@ -96,7 +96,7 @@ add_filter('comments_template', function ($comments_template) {
 add_filter('sage/display_sidebar', function ($display) {
     static $display;
 
-    isset($display) || $display = !has_post_format('image') && !has_post_format('gallery');
+    isset($display) || $display = !is_single() || (!has_post_format('image') && !has_post_format('gallery'));
 
     return $display;
 });
