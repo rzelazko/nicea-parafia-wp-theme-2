@@ -7,7 +7,7 @@
 </footer>
 <footer class="bg-dark">
   <div class="container px-md-0">
-    <nav class="navbar navbar-expand-lg navbar-dark px-0 py-2 mb-3 justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-dark px-0 py-2 justify-content-between">
       <a class="nabar-brand bg-primary text-white text-center p-2 d-inline-flex my-2 small" href="{{ home_url('/') }}">
         <img src="@asset('images/nicea-parafia-logo.png')" width="21" height="28"
           class="d-none d-lg-inline-block align-middle" alt="" />
