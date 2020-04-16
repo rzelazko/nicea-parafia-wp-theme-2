@@ -11,5 +11,20 @@
 }
 
 article.post {
-  @extend .my-3;
+  @extend .my-4;
+}
+
+article.post-excerpt.text-white {
+  .card-title a,
+  .card-body p a {
+    color: #fff;
+  }
+
+  .card-body p {
+    @extend .card-text;
+  }
+
+  .text-muted {
+    @extend .text-light;
+  }
 }
