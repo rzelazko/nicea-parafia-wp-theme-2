@@ -18,6 +18,26 @@
   background: url(../images/main/val-d-allos.jpg);
 }
 
+.carousel-image-sub-1 {
+  background: url(../images/subpage/braus.jpg);
+}
+
+.carousel-image-sub-2 {
+  background: url(../images/subpage/church-cross.jpg);
+}
+
+.carousel-image-sub-3 {
+  background: url(../images/subpage/honorat.jpg);
+}
+
+.carousel-image-sub-4 {
+  background: url(../images/subpage/monaco.jpg);
+}
+
+.carousel-image-sub-5 {
+  background: url(../images/subpage/st-pierre.jpg);
+}
+
 .carousel-item {
   background-size: cover;
 }
@@ -32,8 +52,11 @@
   padding: 0;
   color: $white;
 
-  .np-carousel-caption-box {
+  .np-carousel-caption-bg-dark {
     background-color: rgba(37, 37, 37, 0.8);
+  }
+
+  .np-carousel-caption-box {
     min-height: 33%;
     margin-bottom: 1rem;
     margin-right: 1rem;
@@ -43,6 +66,10 @@
 @include media-breakpoint-up(xs) {
   .carousel-item {
     height: 250px;
+  }
+
+  .carousel-item.carousel-item-subpage {
+    height: 96px;
   }
 }
 
