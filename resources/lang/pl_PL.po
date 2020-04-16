@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-16 18:47+0200\n"
-"PO-Revision-Date: 2020-04-16 18:59+0200\n"
+"POT-Creation-Date: 2020-04-16 21:57+0200\n"
+"PO-Revision-Date: 2020-04-16 21:58+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -54,7 +54,7 @@ msgstr "Nie znaleziono automatycznego ładowarki."
 msgid "Error locating <code>%s</code> for inclusion."
 msgstr "Błąd przy próbie załadowania pliku <code>%s</code>."
 
-#: app/filters.php:33
+#: app/filters.php:33 resources/views/partials/content.blade.php:9
 msgid "Read more"
 msgstr "Więcej"
 
@@ -163,6 +163,11 @@ msgstr "Komentarze są wyłączone."
 #: resources/views/partials/content-single.blade.php:11
 msgid "Pages:"
 msgstr "Strony:"
+
+#: resources/views/partials/post-thumbnail.blade.php:16
+#, python-format
+msgid "Gallery contains %s images"
+msgstr "Galeria zawiera %s obrazów"
 
 #: resources/views/partials/entry-meta.blade.php:3
 msgid ""
