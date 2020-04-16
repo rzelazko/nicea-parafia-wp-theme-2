@@ -9,3 +9,7 @@
 .pagination-top {
   @extend .mt-5, .mb-5;
 }
+
+article.post {
+  @extend .my-3;
+}

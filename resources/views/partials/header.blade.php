@@ -53,7 +53,7 @@
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
                 <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3">
                     <h5>Col de Villefranche, Nicea</h5>
-                    <p>I mówili nawzajem do siebie: «Czy serce nie pałało w nas, kiedy rozmawiał z nami w drodze i Pisma nam wyjaśniał?»</p>
+                    <p>I mówili nawzajem do siebie: &laquo;Czy serce nie pałało w nas, kiedy rozmawiał z nami w drodze i Pisma nam wyjaśniał?&raquo;</p>
                     <p class="small text-right">Łk 24,32</p>
                 </div>
             </div>
@@ -79,8 +79,9 @@
         <div class="carousel-item carousel-image-5">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
                 <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3">
-                    <h5>Val d'Allos, Alpy Prowansalskie</h5>
-                    <p>Błogosław, duszo moja, Pana! O Boże mój, Panie, jesteś bardzo wielki! Odziany we wspaniałość i majestat, światłem okryty jak płaszczem. Rozpostarłeś niebo jak namiot, wzniosłeś swe komnaty nad wodami.</p>
+                    <h5>Val d&apos;Allos, Alpy Prowansalskie</h5>
+                    <p>Błogosław, duszo moja, Pana! O Boże mój, Panie, jesteś bardzo wielki! Odziany we wspaniałość i majestat, 
+                        wiatłem okryty jak płaszczem. Rozpostarłeś niebo jak namiot, wzniosłeś swe komnaty nad wodami.</p>
                     <p class="small text-right">Ps 104</p>
                 </div>
             </div>
