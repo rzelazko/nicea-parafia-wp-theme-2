@@ -6,12 +6,17 @@
   @extend .nav-link;
 }
 
+.nabar-brand:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+}
+
 @include media-breakpoint-up(lg) {
   header .nabar-brand { // use logo position-absolute only when navbar-toggler is not visible
     position: absolute;
     top: 1rem;
     left: 1rem;
-    z-index: 1;
+    z-index: 100;
 
     .lead {
       font-size: 1.5rem;

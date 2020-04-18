@@ -31,7 +31,7 @@
               'walker' => new WP_Bootstrap_Navwalker()
           ]) !!}
       @endif
-      <a class="d-none d-lg-inline-flex ml-4" href="http://www.webperfekt.pl/">
+      <a class="webperfekt-logo d-none d-lg-inline-flex p-4" href="http://www.webperfekt.pl/">
         <img src="@asset('images/webperfekt-logo.png')" height="24"
           class="d-none d-lg-inline-block align-middle" alt="WebPerfekt.pl" />
       </a>

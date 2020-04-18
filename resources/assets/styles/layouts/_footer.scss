@@ -1,3 +1,11 @@
 footer .widget {
   @extend .col-md;
 }
+
+.webperfekt-logo {
+  background-color: transparent;
+}
+
+.webperfekt-logo:hover {
+  background-color: black;
+}
