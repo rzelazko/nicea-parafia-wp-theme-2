@@ -19,6 +19,9 @@
   @include('partials/post-thumbnail')
   <div class="entry-summary">
     {!! the_excerpt() !!}
+
+    <a href="{{ get_permalink() }}" class="btn btn-light">{{__('Read more', 'sage')}}
+      <i class="fas fa-angle-double-right"></i></a>
   </div>
 </article>
 @endif

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-16 21:57+0200\n"
-"PO-Revision-Date: 2020-04-16 21:58+0200\n"
+"PO-Revision-Date: 2020-04-19 11:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -56,7 +56,7 @@ msgstr "Błąd przy próbie załadowania pliku <code>%s</code>."
 
 #: app/filters.php:33 resources/views/partials/content.blade.php:9
 msgid "Read more"
-msgstr "Więcej"
+msgstr "Czytaj dalej"
 
 #: app/setup.php:47
 msgid "Primary Navigation"
