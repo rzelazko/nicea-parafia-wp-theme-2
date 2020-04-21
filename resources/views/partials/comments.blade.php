@@ -6,6 +6,8 @@ if (post_password_required()) {
 
 <section id="comments" class="comments">
   @if (have_comments())
+    <a href="#respond" class="btn btn-outline-primary">{{ __('Add a comment', 'sage')}}</a>
+
     {!! BootstrapContentNavigation::get_the_comments_pagination(array('class' => 'pagination-top')) !!}
 
     <h2>
@@ -13,7 +15,7 @@ if (post_password_required()) {
     </h2>
 
     <ol class="comment-list">
-      {!! wp_list_comments(['style' => 'ol', 'short_ping' => true]) !!}
+      {!! wp_list_comments(['style' => 'ol', 'short_ping' => true, 'avatar_size' => 48]) !!}
     </ol>
 
     {!! BootstrapContentNavigation::get_the_comments_pagination(array('class' => 'pagination-bottom')) !!}

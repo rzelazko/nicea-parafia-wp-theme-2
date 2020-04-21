@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-16 21:57+0200\n"
-"PO-Revision-Date: 2020-04-19 11:11+0200\n"
+"POT-Creation-Date: 2020-04-21 18:54+0200\n"
+"PO-Revision-Date: 2020-04-21 18:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -53,10 +53,6 @@ msgstr "Nie znaleziono automatycznego ładowarki."
 #, php-format
 msgid "Error locating <code>%s</code> for inclusion."
 msgstr "Błąd przy próbie załadowania pliku <code>%s</code>."
-
-#: app/filters.php:33 resources/views/partials/content.blade.php:9
-msgid "Read more"
-msgstr "Czytaj dalej"
 
 #: app/setup.php:47
 msgid "Primary Navigation"
@@ -155,7 +151,11 @@ msgstr "Brak wyników."
 msgid "Sorry, but the page you were trying to view does not exist."
 msgstr "Podana strona nie istnieje."
 
-#: resources/views/partials/comments.blade.php:24
+#: resources/views/partials/comments.blade.php:9
+msgid "Add a comment"
+msgstr "Dodaj komentarz"
+
+#: resources/views/partials/comments.blade.php:26
 msgid "Comments are closed."
 msgstr "Komentarze są wyłączone."
 
@@ -168,6 +168,11 @@ msgstr "Strony:"
 #, python-format
 msgid "Gallery contains %s images"
 msgstr "Galeria zawiera %s obrazów"
+
+#: resources/views/partials/content.blade.php:9
+#: resources/views/partials/content.blade.php:23
+msgid "Read more"
+msgstr "Czytaj dalej"
 
 #: resources/views/partials/entry-meta.blade.php:3
 msgid ""
@@ -188,9 +193,6 @@ msgstr ""
 
 #~ msgid "Newer posts"
 #~ msgstr "Nowsze wpisy"
-
-#~ msgid "Older comments"
-#~ msgstr "&larr; Starsze komentarze"
 
 #~ msgid "Newer comments"
 #~ msgstr "Nowsze komentarze &rarr;"

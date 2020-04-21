@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-16 21:57+0200\n"
+"POT-Creation-Date: 2020-04-21 18:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,10 +48,6 @@ msgstr ""
 #: resources/functions.php:59
 #, php-format
 msgid "Error locating <code>%s</code> for inclusion."
-msgstr ""
-
-#: app/filters.php:33 resources/views/partials/content.blade.php:9
-msgid "Read more"
 msgstr ""
 
 #: app/setup.php:47
@@ -151,7 +147,11 @@ msgstr ""
 msgid "Sorry, but the page you were trying to view does not exist."
 msgstr ""
 
-#: resources/views/partials/comments.blade.php:24
+#: resources/views/partials/comments.blade.php:9
+msgid "Add a comment"
+msgstr ""
+
+#: resources/views/partials/comments.blade.php:26
 msgid "Comments are closed."
 msgstr ""
 
@@ -163,6 +163,11 @@ msgstr ""
 #: resources/views/partials/post-thumbnail.blade.php:16
 #, python-format
 msgid "Gallery contains %s images"
+msgstr ""
+
+#: resources/views/partials/content.blade.php:9
+#: resources/views/partials/content.blade.php:23
+msgid "Read more"
 msgstr ""
 
 #: resources/views/partials/entry-meta.blade.php:3
