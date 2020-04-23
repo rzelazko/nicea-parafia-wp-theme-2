@@ -40,6 +40,7 @@
 
 .carousel-item {
   background-size: cover;
+  background-position: right bottom;
 }
 
 .np-carousel-caption {
@@ -69,7 +70,7 @@
   }
 
   .carousel-item.carousel-item-subpage {
-    height: 96px;
+    height: 95px;
   }
 }
 
@@ -81,11 +82,15 @@
   .carousel-item {
     height: 350px;
   }
+
+  .carousel-item.carousel-item-subpage {
+    height: 110px;
+  }
 }
 
 @include media-breakpoint-up(lg) {
   .carousel-item {
-    height: 450px;
+    height: 540px;
   }
 }
 
