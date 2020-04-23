@@ -58,7 +58,16 @@ array_map(function ($file) use ($sage_error) {
     if (!locate_template($file, true, true)) {
         $sage_error(sprintf(__('Error locating <code>%s</code> for inclusion.', 'sage'), $file), 'File not found');
     }
-}, ['helpers', 'setup', 'filters', 'admin', 'custom/WP_Bootstrap_Navwalker', 'custom/NP_Widget_Bootstrap_Card', 'custom/BootstrapContentNavigation']);
+}, [
+    'helpers', 
+    'setup', 
+    'filters', 
+    'admin', 
+    'Custom/WP_Bootstrap_Navwalker', 
+    'Custom/NP_Widget_Bootstrap_Card', 
+    'Custom/BootstrapContentNavigation', 
+    'Custom/Breadcrumbs'
+]);
 
 /**
  * Here's what's happening with these hooks:

@@ -5,8 +5,10 @@
     <div class="wrap container" role="document">
       @php do_action('get_header') @endphp
       @include('partials.header')
+      
+      {!! Breadcrumb::the_breadcrumb() !!}
 
-      <div class="content row ">
+      <div class="content row">
         <main class="main col-12 col-md">
           @yield('content')
         </main>

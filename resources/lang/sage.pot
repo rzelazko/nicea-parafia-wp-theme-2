@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 18:54+0200\n"
+"POT-Creation-Date: 2020-04-23 21:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,67 +75,91 @@ msgstr ""
 msgid "Not Found"
 msgstr ""
 
-#: app/custom/NP_Widget_Bootstrap_Card.php:11
+#: app/Custom/Breadcrumbs.php:11
+msgid "Home"
+msgstr ""
+
+#: app/Custom/Breadcrumbs.php:22 app/Custom/Breadcrumbs.php:24
+#: app/Custom/Breadcrumbs.php:26
+#, php-format
+msgid "Archive for: %s"
+msgstr ""
+
+#: app/Custom/Breadcrumbs.php:28
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: app/Custom/Breadcrumbs.php:30
+msgid "Blog Archives"
+msgstr ""
+
+#: app/Custom/Breadcrumbs.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: app/Custom/NP_Widget_Bootstrap_Card.php:11
 msgid "Bootsrap Card"
 msgstr ""
 
-#: app/custom/NP_Widget_Bootstrap_Card.php:63
+#: app/Custom/NP_Widget_Bootstrap_Card.php:63
 msgid "Card CSS class:"
 msgstr ""
 
-#: app/custom/NP_Widget_Bootstrap_Card.php:72
+#: app/Custom/NP_Widget_Bootstrap_Card.php:72
 msgid "Title:"
 msgstr ""
 
-#: app/custom/NP_Widget_Bootstrap_Card.php:76
+#: app/Custom/NP_Widget_Bootstrap_Card.php:76
 msgid "Text:"
 msgstr ""
 
-#: app/custom/NP_Widget_Bootstrap_Card.php:81
+#: app/Custom/NP_Widget_Bootstrap_Card.php:81
 msgid "Button URL:"
 msgstr ""
 
-#: app/custom/NP_Widget_Bootstrap_Card.php:91
+#: app/Custom/NP_Widget_Bootstrap_Card.php:91
 msgid "Button CSS class:"
 msgstr ""
 
-#: app/custom/NP_Widget_Bootstrap_Card.php:101
+#: app/Custom/NP_Widget_Bootstrap_Card.php:101
 msgid "Button text:"
 msgstr ""
 
-#: app/custom/BootstrapContentNavigation.php:42
+#: app/Custom/BootstrapContentNavigation.php:42
 msgctxt "previous post"
 msgid "&laquo; Previous"
 msgstr ""
 
-#: app/custom/BootstrapContentNavigation.php:43
+#: app/Custom/BootstrapContentNavigation.php:43
 msgctxt "next post"
 msgid "Next &raquo;"
 msgstr ""
 
-#: app/custom/BootstrapContentNavigation.php:44
+#: app/Custom/BootstrapContentNavigation.php:44
 msgid "Posts navigation"
 msgstr ""
 
-#: app/custom/BootstrapContentNavigation.php:121
+#: app/Custom/BootstrapContentNavigation.php:121
 msgctxt "previous comment"
 msgid "&laquo; Previous"
 msgstr ""
 
-#: app/custom/BootstrapContentNavigation.php:122
+#: app/Custom/BootstrapContentNavigation.php:122
 msgctxt "next comment"
 msgid "Next &raquo;"
 msgstr ""
 
-#: app/custom/BootstrapContentNavigation.php:123
+#: app/Custom/BootstrapContentNavigation.php:123
 msgid "Comments navigation"
 msgstr ""
 
-#: app/custom/BootstrapContentNavigation.php:219
+#: app/Custom/BootstrapContentNavigation.php:219
 msgid "Post page navigation"
 msgstr ""
 
-#: app/custom/WP_Bootstrap_Navwalker.php:374
+#: app/Custom/WP_Bootstrap_Navwalker.php:374
 msgid "Add a menu"
 msgstr ""
 
