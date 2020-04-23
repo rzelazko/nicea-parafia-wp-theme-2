@@ -3,17 +3,6 @@
 }
 
 .sidebar {
-  .widget_search {
-    .search-field {
-      @extend .mr-2;
-      @extend .flex-fill;
-    }
-
-    label {
-      @extend .flex-fill;
-    }
-  }
-
   .widget_np_bootstrap_card .card-body > h3 {
     @extend .card-title;
   }

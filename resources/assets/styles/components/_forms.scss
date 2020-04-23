@@ -1,19 +1,27 @@
 /** Search form */
 .search-form {
-  @extend .form-inline;
+  @extend .form-inline, .d-flex, .flex-nowrap;
 }
 
 .search-form label {
   @extend .form-group;
+  @extend .flex-fill;
+  @extend .mr-2;
+  @extend .mb-0;
 
   font-weight: normal;
+  min-width: 20px;
 }
 
 .search-form .search-field {
   @extend .form-control;
+  @extend .flex-fill;
+
+  min-width: 10px;
 }
 
 .search-form .search-submit {
   @extend .btn;
   @extend .btn-secondary;
+  @extend .mb-0;
 }
