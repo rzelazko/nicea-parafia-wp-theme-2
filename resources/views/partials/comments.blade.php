@@ -10,8 +10,8 @@ if (post_password_required()) {
 
     {!! BootstrapContentNavigation::get_the_comments_pagination(array('class' => 'pagination-top')) !!}
 
-    <h2>
-      {!! sprintf(_nx('One response to &ldquo;%2$s&rdquo;', '%1$s responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'sage'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>') !!}
+    <h2 class="my-3">
+      {!! sprintf(_n('One response to &ldquo;%2$s&rdquo;', '%1$s responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'sage'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>') !!}
     </h2>
 
     <ol class="comment-list">

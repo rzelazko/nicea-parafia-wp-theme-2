@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 21:16+0200\n"
-"PO-Revision-Date: 2020-04-23 21:16+0200\n"
+"POT-Creation-Date: 2020-04-23 22:46+0200\n"
+"PO-Revision-Date: 2020-04-23 22:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -179,12 +179,19 @@ msgstr "Podana strona nie istnieje."
 msgid "Add a comment"
 msgstr "Dodaj komentarz"
 
+#: resources/views/partials/comments.blade.php:14
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedna odpowiedź na &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s odpowiedzi na &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s odpowiedzi na &ldquo;%2$s&rdquo;"
+
 #: resources/views/partials/comments.blade.php:26
 msgid "Comments are closed."
 msgstr "Komentarze są wyłączone."
 
 #: resources/views/partials/content-page.blade.php:3
-#: resources/views/partials/content-single.blade.php:11
+#: resources/views/partials/content-single.blade.php:10
 msgid "Pages:"
 msgstr "Strony:"
 
