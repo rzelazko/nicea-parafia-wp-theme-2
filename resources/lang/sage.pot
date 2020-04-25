@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 22:46+0200\n"
+"POT-Creation-Date: 2020-04-25 10:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,11 +55,15 @@ msgstr ""
 msgid "Primary Navigation"
 msgstr ""
 
-#: app/setup.php:89
+#: app/setup.php:48
+msgid "Footer Navigation"
+msgstr ""
+
+#: app/setup.php:90
 msgid "Primary sidebar"
 msgstr ""
 
-#: app/setup.php:93
+#: app/setup.php:94
 msgid "Footer"
 msgstr ""
 
