@@ -9,10 +9,9 @@
   <div class="container px-md-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-0 py-2 justify-content-between">
       <a class="nabar-brand bg-primary text-white text-center p-2 d-inline-flex my-2 small" href="{{ home_url('/') }}">
-        <img src="@asset('images/nicea-parafia-logo.png')" width="21" height="28"
-          class="d-none d-lg-inline-block align-middle" alt="" />
+        <i class="fas fa-church mr-2"></i>
         <span class="d-inline-block align-middle">
-          <span class="d-block">Polska Parafia</span>
+          <span class="d-block lead">Polska Parafia</span>
           <small class="d-block">Nicea Cannes Monaco</small>
         </span>
       </a>

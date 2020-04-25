@@ -1,7 +1,7 @@
 // import external dependencies
 import 'jquery';
 import { library as faApiLibrary, dom as faApiDom } from '@fortawesome/fontawesome-svg-core';
-import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDoubleRight, faChurch } from '@fortawesome/free-solid-svg-icons';
 
 // Import everything from autoload
 import './autoload/**/*'
@@ -25,4 +25,5 @@ jQuery(document).ready(() => routes.loadEvents());
 // Add the imported icons to the library
 // Tell FontAwesome to watch the DOM and add the SVGs when it detects icon markup
 faApiLibrary.add(faAngleDoubleRight);
+faApiLibrary.add(faChurch);
 faApiDom.watch();

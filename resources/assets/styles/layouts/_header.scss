@@ -6,6 +6,11 @@
   @extend .nav-link;
 }
 
+.nabar-brand .fa-church {
+  width: 35px;
+  height: 55px;
+}
+
 .nabar-brand:hover {
   text-decoration: none;
   text-shadow: 1px 1px 1px black;

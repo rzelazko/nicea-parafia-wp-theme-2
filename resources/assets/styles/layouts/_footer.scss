@@ -2,6 +2,17 @@ footer .widget {
   @extend .col-md;
 }
 
+footer .nabar-brand {
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  .fa-church {
+    width: 20px;
+    height: 40px;
+  }
+}
+
 .webperfekt-logo {
   background-color: transparent;
   transition-duration: 800ms;
