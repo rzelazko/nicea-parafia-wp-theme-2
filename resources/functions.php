@@ -66,7 +66,8 @@ array_map(function ($file) use ($sage_error) {
     'Custom/WP_Bootstrap_Navwalker', 
     'Custom/NP_Widget_Bootstrap_Card', 
     'Custom/BootstrapContentNavigation', 
-    'Custom/Breadcrumbs'
+    'Custom/Breadcrumbs',
+    'Custom/NP_Theme_Customize'
 ]);
 
 /**

@@ -30,3 +30,12 @@
 @else
     @include('partials.carousel-subpage')
 @endif
+
+@if (get_theme_mod('holiday_warning'))
+    <div id="np-theme-holiday-warning" class="alert alert-warning alert-dismissible fade show" role="alert">
+        {!! __('Our <strong>website</strong> in on freeze. Further updates after holidays period.', 'sage') !!}
+        <button type="button" class="close" data-dismiss="alert" aria-label="{{ __('Close', 'sage') }}">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+@endif

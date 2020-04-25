@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-25 10:50+0200\n"
+"POT-Creation-Date: 2020-04-25 16:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,12 +168,30 @@ msgstr ""
 msgid "Add a menu"
 msgstr ""
 
+#: app/Custom/NP_Theme_Customize.php:21
+msgid "Nicea Parafia Theme Options"
+msgstr ""
+
+#: app/Custom/NP_Theme_Customize.php:24
+msgid "Allows you to customize some example settings for Nicea Parafia Theme."
+msgstr ""
+
+#: app/Custom/NP_Theme_Customize.php:44
+msgid "Show warning about website freeze due to holidays"
+msgstr ""
+
 #: resources/views/index.blade.php:8 resources/views/search.blade.php:8
 msgid "Sorry, no results were found."
 msgstr ""
 
 #: resources/views/404.blade.php:8
 msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#: resources/views/partials/header.blade.php:36
+msgid ""
+"Our <strong>website</strong> in on freeze. Further updates after holidays "
+"period."
 msgstr ""
 
 #: resources/views/partials/comments.blade.php:9
