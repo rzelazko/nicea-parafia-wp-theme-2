@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/wp-content/themes/nicea-parafia-theme",
+  "publicPath": "/wp-content/themes/nicea-parafia-theme-2.0",
   "devUrl": "http://nicea-parafia.localhost",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
