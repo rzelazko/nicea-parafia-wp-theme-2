@@ -1,11 +1,15 @@
-# [Sage](https://roots.io/sage/)
+# Nicea Parafia Theme
+
+Second version of [WordPress](http://www.wordpress.org) theme for [Nicea Parafia website](http://www.nicea-parafia.pl) based on Sage starter theme
+
+## [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
 [![Build Status](https://img.shields.io/travis/roots/sage.svg?style=flat-square)](https://travis-ci.org/roots/sage)
 
 Sage is a WordPress starter theme with a modern development workflow.
 
-## Features
+### Features
 
 * Sass for stylesheets
 * Modern JavaScript
@@ -17,7 +21,7 @@ Sage is a WordPress starter theme with a modern development workflow.
 
 See a working example at [roots-example-project.com](https://roots-example-project.com/).
 
-## Requirements
+### Requirements
 
 Make sure all dependencies have been installed before moving on:
 
@@ -27,7 +31,7 @@ Make sure all dependencies have been installed before moving on:
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
 
-## Theme installation
+### Theme installation
 
 Install Sage using Composer from your WordPress themes directory (replace `your-theme-name` below with the name of your theme):
 
@@ -44,7 +48,7 @@ $ composer create-project roots/sage your-theme-name dev-master
 
 During theme installation you will have options to update `style.css` theme headers, select a CSS framework, and configure Browsersync.
 
-## Theme structure
+### Theme structure
 
 ```shell
 themes/your-theme-name/   # → Root of your Sage based theme
@@ -77,39 +81,39 @@ themes/your-theme-name/   # → Root of your Sage based theme
 └── vendor/               # → Composer packages (never edit)
 ```
 
-## Theme setup
+### Theme setup
 
 Edit `app/setup.php` to enable or disable theme features, setup navigation menus, post thumbnail sizes, and sidebars.
 
-## Theme development
+### Theme development
 
 * Run `yarn` from the theme directory to install dependencies
 * Update `resources/assets/config.json` settings:
   * `devUrl` should reflect your local development hostname
   * `publicPath` should reflect your WordPress folder structure (`/wp-content/themes/sage` for non-[Bedrock](https://roots.io/bedrock/) installs)
 
-### Build commands
+#### Build commands
 
 * `yarn start` — Compile assets when file changes are made, start Browsersync session
 * `yarn build` — Compile and optimize the files in your assets directory
 * `yarn build:production` — Compile assets for production
 
-## Documentation
+### Documentation
 
 * [Sage documentation](https://roots.io/sage/docs/)
 * [Controller documentation](https://github.com/soberwp/controller#usage)
 
-## Contributing
+### Contributing
 
 Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
 
-## Sage sponsors
+### Sage sponsors
 
 Help support our open-source development efforts by [becoming a patron](https://www.patreon.com/rootsdev).
 
 <a href="https://kinsta.com/?kaid=OFDHAJIXUDIV"><img src="https://cdn.roots.io/app/uploads/kinsta.svg" alt="Kinsta" width="200" height="150"></a> <a href="https://k-m.com/"><img src="https://cdn.roots.io/app/uploads/km-digital.svg" alt="KM Digital" width="200" height="150"></a> <a href="https://www.itineris.co.uk/"><img src="https://cdn.roots.io/app/uploads/itineris.svg" alt="itineris" width="200" height="150"></a> <a href="http://www.hbgdesignlab.se/"><img src="https://cdn.roots.io/app/uploads/helsingborgdesignlab.png" alt="Helsingborg Design LAB" with="200" height="150">
 
-## Community
+### Community
 
 Keep track of development and community news.
 
