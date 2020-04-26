@@ -9,7 +9,13 @@ export default {
     if (Cookies.get('np-theme-holiday-warning') === 'hide') {
       $('#np-theme-holiday-warning').addClass('d-none');
     }
+
+    $('#np-brand-footer').dblclick(function (event) {
+      event.preventDefault();
+      window.location.href = '/wp-admin';
+    });
   },
+
   finalize() {
   },
 };
