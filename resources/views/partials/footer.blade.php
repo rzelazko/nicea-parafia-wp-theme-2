@@ -15,7 +15,7 @@
           <small class="d-block">Nicea Cannes Monaco</small>
         </span>
       </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary-navigation">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-footer-navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
       @if (has_nav_menu('footer_navigation'))
