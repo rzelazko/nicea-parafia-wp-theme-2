@@ -16,6 +16,10 @@
 
 article.post {
   @extend .my-4;
+
+  header {
+    overflow-wrap: break-word;
+  }
 }
 
 article.post-excerpt.text-white {
