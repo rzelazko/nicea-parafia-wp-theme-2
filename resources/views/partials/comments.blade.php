@@ -6,7 +6,9 @@ if (post_password_required()) {
 
 <section id="comments" class="comments">
   @if (have_comments())
-    <a href="#respond" class="btn btn-outline-primary">{{ __('Add a comment', 'sage')}}</a>
+    @if (comments_open())
+      <a href="#respond" class="btn btn-outline-primary">{{ __('Add a comment', 'sage')}}</a>
+    @endif
 
     {!! BootstrapContentNavigation::get_the_comments_pagination(array('class' => 'pagination-top')) !!}
 
