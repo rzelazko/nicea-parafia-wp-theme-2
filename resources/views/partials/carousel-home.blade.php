@@ -9,7 +9,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active carousel-image-1">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
-                <div class="col-md-6 col-lg-5 np-carousel-caption-box np-carousel-caption-bg-dark py-3">
+                <div class="col-md-6 col-lg-5 np-carousel-caption-box np-carousel-caption-bg-dark py-3 rounded">
                     <h5>Chemin de l&apos;Energie Alpy Nadmorskie</h5>
                     <p>
                         A potem Bóg rzekł «Niech zbiorą się wody spod nieba w jedno miejsce i niech się ukaże
@@ -23,7 +23,7 @@
         </div>
         <div class="carousel-item carousel-image-2">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
-                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3">
+                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3 rounded">
                     <h5>Col de Villefranche, Nicea</h5>
                     <p>I mówili nawzajem do siebie: &laquo;Czy serce nie pałało w nas, kiedy rozmawiał z nami w drodze i
                         Pisma nam wyjaśniał?&raquo;</p>
@@ -33,7 +33,7 @@
         </div>
         <div class="carousel-item carousel-image-3">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
-                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3">
+                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3 rounded">
                     <h5>Kaplica, Plac Garibaldi, Nicea</h5>
                     <p>O, gwiazdo najświętsza wiedź nas w niebios kraj. I wieczną szczęśliwość, o Boże, nam daj.</p>
                     <p class="small text-right">Po górach dolinach</p>
@@ -42,7 +42,7 @@
         </div>
         <div class="carousel-item carousel-image-4">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
-                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3">
+                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3 rounded">
                     <h5>Promenade des Anglais, Nicea</h5>
                     <p>Pan kiedyś stanął nad brzegiem; Szukał ludzi gotowych pójść za Nim; By łowić serca; Słów Bożych
                         prawdą</p>
@@ -52,7 +52,7 @@
         </div>
         <div class="carousel-item carousel-image-5">
             <div class="np-carousel-caption d-none d-md-flex row justify-content-end align-items-end">
-                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3">
+                <div class="col-md-6 col-lg-4 np-carousel-caption-box np-carousel-caption-bg-dark py-3 rounded">
                     <h5>Val d&apos;Allos, Alpy Prowansalskie</h5>
                     <p>Błogosław, duszo moja, Pana! O Boże mój, Panie, jesteś bardzo wielki! Odziany we wspaniałość i
                         majestat,

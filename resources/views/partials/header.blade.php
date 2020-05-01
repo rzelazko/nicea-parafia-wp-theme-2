@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 mb-3 justify-content-between">
-        <a class="nabar-brand bg-primary text-white text-center p-2 p-lg-4 d-inline-flex my-2" href="{{ home_url('/') }}">
+        <a class="nabar-brand bg-primary text-white text-center p-2 p-lg-4 d-inline-flex my-2 rounded" href="{{ home_url('/') }}">
             <i class="fas fa-church mr-2"></i>
             <span class="d-inline-block align-middle">
                 <span class="lead d-block">Polska Parafia</span>
