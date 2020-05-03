@@ -25,7 +25,7 @@
               'container' => 'div',
               'container_class' => 'collapse navbar-collapse flex-grow-0 order-0 order-lg-1',
               'container_id' => 'navbar-footer-navigation',
-              'menu_class' => 'nav navbar-nav ml-auto',
+              'menu_class' => 'nav justify-content-center navbar-nav ml-auto',
               'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
               'walker' => new WP_Bootstrap_Navwalker()
           ]) !!}
