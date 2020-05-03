@@ -2,7 +2,10 @@ footer .widget {
   @extend .col-md;
 }
 
-footer .nabar-brand {
+footer .navbar-brand {
+  white-space: nowrap;
+  font-size: 0.8rem;
+
   .lead {
     font-size: 1.1rem;
   }
