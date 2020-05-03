@@ -2,6 +2,17 @@
 
 Second version of [WordPress](http://www.wordpress.org) theme for [Nicea Parafia website](http://www.nicea-parafia.pl) based on Sage starter theme
 
+## Production deployment
+
+```bash
+cd /path/to/public_html/wp-content/themes/nicea-parafia-2.0
+yarn build:production
+cd ../ && tar -cvzf nicea-parafia-2.0.tgz --exclude nicea-parafia-2.0/node_modules nicea-parafia-2.0
+cd -
+scp /path/to/public_html/wp-content/themes/nicea-parafia-2.0.tgz user@host:/path/to/wp-content/themes
+ssh user@host tar -xzf /path/to/wp-content/themes/nicea-parafia-2.0.tgz
+```
+
 ## [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
