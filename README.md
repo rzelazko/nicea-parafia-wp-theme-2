@@ -2,6 +2,17 @@
 
 Second version of [WordPress](http://www.wordpress.org) theme for [Nicea Parafia website](http://www.nicea-parafia.pl) based on Sage starter theme
 
+## Requirements
+
+- Node 10.x
+- Yarn
+
+```bash
+nvm install lts/dubnium
+nvm use lts/dubnium
+npm install -g yarn
+```
+
 ## Production deployment
 
 ```bash
