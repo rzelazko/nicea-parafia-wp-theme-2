@@ -129,12 +129,6 @@ Edit `app/setup.php` to enable or disable theme features, setup navigation menus
 
 Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
 
-### Sage sponsors
-
-Help support our open-source development efforts by [becoming a patron](https://www.patreon.com/rootsdev).
-
-<a href="https://kinsta.com/?kaid=OFDHAJIXUDIV"><img src="https://cdn.roots.io/app/uploads/kinsta.svg" alt="Kinsta" width="200" height="150"></a> <a href="https://k-m.com/"><img src="https://cdn.roots.io/app/uploads/km-digital.svg" alt="KM Digital" width="200" height="150"></a> <a href="https://www.itineris.co.uk/"><img src="https://cdn.roots.io/app/uploads/itineris.svg" alt="itineris" width="200" height="150"></a> <a href="http://www.hbgdesignlab.se/"><img src="https://cdn.roots.io/app/uploads/helsingborgdesignlab.png" alt="Helsingborg Design LAB" with="200" height="150">
-
 ### Community
 
 Keep track of development and community news.
